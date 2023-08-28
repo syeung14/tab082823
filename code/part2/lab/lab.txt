@@ -1,0 +1,6 @@
+1. We are designing a class and decide we want a field and a getter and setter for it. Should we write a unit test before writing the getter and before writing a setter?
+
+2. We're designing a function that performs an action, sleeps for one second and then performs another action. How should we approach writing a unit test for it?
+
+3. We're designing a function that makes a call to a remote webservice, performs one set of action if the result of the call is in a range and a different set of action if the result of the call is out side of that range. How should we approach writing a unit test for it?
+
