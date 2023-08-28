@@ -1,0 +1,12 @@
+1. How is TDD practiced in your current projects?
+
+2. How is it working for you?
+
+3. How is it working for the team?
+
+4. What are some of the impediments?
+
+5. What percentage of testing is automated?
+
+6. What are some of the places for improvements related to TDD and automation?
+

@@ -1,0 +1,45 @@
+1. How is TDD practiced in your current projects?
+
+I work mostly on the Data Ingestion and Curation side. TDD is normally not used in our current projects
+
+>>Consider evaluating how to bring in automated feedback loops
+
+Not at all, it is often impossible in the legacy part
+
+TDD is being promoted. I am facilitating adoption of TDD in developing PowerShell code to implement devops capabilities.
+
+Doing it with a Python project. However not all unittests are pure in-memory tests.
+
+Also, TDD is not used in build AI/ML models also.
+
+As a data org, we do not unit test. Instead we test against a test DB. And hope.
+
+I’m doing it (mostly), and I’m pushing juniors directly under me to do it. But others developer in the team are not doing it (because lack of skills…).
+
+TDD is being practiced at 80% of the time at my organization
+
+only important part in backend, majorly Integration tests. UI tests are even less.
+
+Individually - I personally use it for all code, I try to get colleagues to use it, but they are in the downward productivity curve and they have largely given up on it
+
+TDD is common in bug fixes/production code issues. We write a red test and try to make it green to fix the bug.
+
+Only done in the project that test coverage checks. Pull requests are checked for tests
+
+almost we writing after implementation
+
+
+We do not follow TDD. We do write some tests post development.
+
+Tosca has a good tool to do automation in API
+
+2. How is it working for you?
+
+3. How is it working for the team?
+
+4. What are some of the impediments?
+
+5. What percentage of testing is automated?
+
+6. What are some of the places for improvements related to TDD and automation?
+
