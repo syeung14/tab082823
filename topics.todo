@@ -1,0 +1,114 @@
+Test Automation Boot Camp
+Venkat Subramaniam
+Email: venkats@agiledeveloper.com
+Twitter: @venkat_s
+http://www.agiledeveloper.com download link
+
+Part 1: Influences of TDD on Agility and Sustainability:
+- Projects already takes time! Why do it?
+- https://twitter.com/venkat_s/status/939166889779003393
+
+   Local optimization vs. global optimization
+
+        Development			Fixing
+   |----------------------|--------------------------------|
+
+   or
+
+   |-----------------------------------|-------|
+
+- What's Agile Development?
+- Feedback is critical, building what they still want...
+- Circles of feedback
+- Not about speed, but sustainable speed
+- Cost of doing TDD
+- Cost of not doing it - insanity to repeat what does not work
+- Dealing with entropy and software rot
+- Types of design
+- Why Automation?
+- How projects end up in waterfall?
+- Tenets of testing
+- Automation is key
+- Types of Tests
+- Where to Automate and where not to
+- Most important thing needed for TDD
+- Why is it not popular?
+- Exercise
+
+Part 2: Types of tests:
+- Types of Tests
+- Types of Unit Tests: positive, negative, and exception
+- Performance tests
+- What's a unit test?
+- Other forms of tests
+- test quality
+- size of tests
+- AAA
+- Exercise
+
+Part 3: To unit test or not:
+- How we typically write classes?
+- How TDD changes that?
+- Test first vs. unit testing
+- Test first coding
+- Who should write unit tests?
+- When should we write unit tests?
+- What about GUI code?
+- Unit tests and legacy code
+- Discussions
+
+
+Part 4: Regression benefits:
+- Evolution of code
+- What sold me on unit testing
+- Automated tests are safety net for refactoring
+- Exercise
+- Discussions
+
+Part 5: Driving the Design with Tests:
+- Benefits
+  - reverts
+  - robustness
+  - verification
+  - confidence
+  - decoupling
+  - form of documentation
+  - it provides safety net for refactoring
+- Why TDD?
+  - Clean code that works
+  - predictability
+- Programming by intention
+- Simplicity and minimalism
+- Acceptance tests vs. unit tests
+- Unit Tests
+  - act of design
+    Kent Beck: Unit testing is an act of design more than an act of verification
+  - feedback
+  - sustainability
+  - documentation
+  - safety net for refactoring and code evolution
+- Evolving with tests
+  -the first few tests help us define the skin of the code and the
+    next few tests help us to create the guts of the code
+- Tenets of TDD
+  - Write/change code only if a test fails
+  - Minimum code that works
+  - Seek pragmatic and simple design
+  - Eliminate duplication
+- Red/Green/Refactor
+- Review of what we learned from the example
+- As a design tool
+  - DRY principle
+  - SOLID principles: SRP, OCP, LSP, ISP, DIP
+- Untested code is unfinished code
+- Exercise
+
+Part 6: Measuring test coverage:
+- What's test coverage
+- Benefits of test coverage
+- Test coverage traps to avoid
+- Using it for the right reasons
+- Example
+- Exercise
+
+Discussions
