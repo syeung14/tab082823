@@ -1,0 +1,100 @@
+Typically we write a class, put some fields, add getter/setter as necessary,
+we write functions, and then think of tests.
+
+Unit test may be written before or after. However, if we write test after,
+we often are trying to work with the design we have thrown together.
+
+If we write test first, we get to put ourselves in the shoes of the person
+who will use our code. We are able to create a better empathetic design.
+
+Test first development.
+
+We can ask does this make sense, is this easier for someone to use, is this
+necessary. We can be minimalistic in our design.
+
+We can influence the design of the code if we write test first.
+
+If we write tests after, and if we find it hard to write some tests, because
+the design does not make it easier, we may give up on writing those tests.
+
+Write a test
+Then write minimum code to make the test pass
+Refactor
+
+But, writing test is *not* a mechanical process.
+
+Write test, then stare at it. It tries to tell you something. Listen.
+
+To me, it is write test, tweak it, tweak it, tweak it, until it feel that the
+design is simple and minimalistic.
+
+The influence of TDD on design is not automatic. It takes deliberate effort
+and also being really awake.
+
+
+The person who is going to write the code should be writing the test.
+
+Think of walking from point A to point B. You want to take one step at a time, not bounce of like a drunkard.
+
+Right foot first
+Left foot next
+
+Like wise,
+one test
+minimum code
+one test
+minimum code
+...
+
+You need a good rhythm to write test and code as you move forward.
+
+The series of tests should tell a story of how the design has evolved incrementally.
+
+
+If we are pairing, then one person may write test and the other may implement and we swap - ping pong pairing. Still, the tests are written in the same session as we are writing the code. Not entirely before or entirely after.
+
+Unit tests should be written as part of writing the code. Not all before, not all after.
+
+Write tests at one layer below the GUI. This can help us to get fast feedback
+and make the tests less brittle.
+
+It also helps to separate the logic from the GUI.
+
+Legacy code. Michael Features says "Legacy code is a piece of code with no tests"
+Working Effectively with Legacy Code book.
+
+The first step in dealing with legacy code is to put an end to legacy code
+becoming older.
+
+I once worked with a client who said they have "5 years of legacy code"
+I met them 5 years later. They now said "we have 10 years of legacy code"
+
+1. Promise to start writing tests for any new code in the legacy code.
+
+2. Do *not* start writing unit tests randomly or with vengeance on existing code.
+   The unit tests are not very effective if we do this
+   We take time away from important tasks that need to be done
+
+3. If some code has not been touched for a long time and there is no plan to touch it, do not bother with any tests on that legacy code. It is there, let it be there.
+
+4. When you are getting ready to fix a bug or add a new feature, then and only then start with very high level tests (approval test, integration test, or even manual tests). Use there tests as a form of feedback to refactor, and then write unit test on the refactored code. Then add a feature or fix a bug, with tests of course.
+
+
+How do we approach the design and testing when we start with requirements?
+
+Divide the design into two parts:
+Strategic design
+Tactical design
+
+Strategic design
+Very high level design. Jot down classes, some top level functions, etc.
+Keep in mind these are details that can, should, and will change.
+
+This gives you a starting point but we will be willing to change it when we learn better.
+
+Gives us a starting point.
+
+Tactical design
+
+Here start with the most interesting or the most valuable part of the strategic design. Drive the design using automated unit tests. As you learn more, as you evolve the design, change the strategic design to match the current understanding.
+
