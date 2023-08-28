@@ -1,0 +1,80 @@
+White box testing
+Black box testing
+
+White box testing the person writing the test knows about the implementation of the code and is interested in helping with the design of the code.
+
+
+Black box testing the person writing the test does not know or does not care about the implementation of the code, but is interested in what the code should do. Functional or acceptance testing.
+
+Types of Unit tests:
+
+1. Positive tests - does the code do what it is suppose to do?
+I deposit $100, did the balance go up by $100 and ...
+
+2. Negative tests - does the code handle invariance properly and takes care of dealing with operations not allowed.
+
+3. Exception tests - does the code properly deal with exceptions, both generation and handling.
+
+If someone tells you this code cannot be automated tested, they are telling you the design of the code sucks.
+
+Testability is a design concern.
+
+A code that is poorly designed is hard to test.
+
+If performance is important then do not write any code for it until you have
+a test for it.
+
+Start with performance tests before tweaking performance.
+
+What is a unit test?
+
+It is a test on a unit of code.
+
+What is a unit?
+
+A unit is a smallest piece of code that does useful work.
+
+If a function does a lot of work, very complex looping, event management, etc. then it is not a unit of code. It can be divided into smaller functions that can be considered unit and on which we can write tests. The larger function can benefit from higher level tests than unit tests.
+
+
+Test quality
+
+A unit test should focus on one small expected behavior that you are about to implement.
+
+Let the test fail first.
+Then write minimum code to make the test pass.
+Then refactor.
+
+Red-Green-Refactor
+
+Difference between can't and won't
+
+Tests should be extremely small
+
+A test should tell a story of what it is helping us design.
+
+Make tests extremely clear
+
+AAA
+-Design your test into three parts:
+Arrange
+Act
+Assert
+
+Arrange - minimally set up things we need for the test
+Act - perform the action that is the central focus of the test
+Assert - verify the code did what it expects to do
+
+Please use a blank line between the parts of AAA.
+Helps to quickly understand the parts of a test and its focus as well.
+
+No cryptic names for tests but not overly long
+Name the tests based on what you are expecting for the behavior.
+Definitely not test1, test2, testa, testb.
+
+test_empty_codes_returns_empty_airports
+
+
+
+
+
