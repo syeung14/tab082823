@@ -1,0 +1,165 @@
+Agile development is really feedback driven development
+
+Agile development is *not* about speed.
+
+It is really about sustainability.
+
+It is sometimes very important to slow down in order to sustain speed in the long term
+
+https://twitter.com/venkat_s/status/939166889779003393
+
+I do automated testing not because I have a lot of time, it’s because I don’t.
+
+You don't want to build what your customers wanted. You want to build what
+they still want.
+
+There are two cycles of feedback
+1. That the code meets our customers or business' expectations - relevance
+2. The code worked yesterday, does it still work? - regression
+
+Software is a non-linear system
+
+A change in one place may drastically affect a very different place in the application.
+
+We evolve design to accommodate change in requirements.
+
+How do we know if the design is not brittle and is easier to change?
+How do we know that a change does not break the current behavior of the code?
+
+
+I love manual testing.
+
+But, what is testing?
+
+Testing is an act of gaining insight into the application we are designing. Does this feel right, is this usable, is the workflow necessary, can it be better, is the performance adequate,...
+
+We use the word testing too broadly and often in an incorrect manner
+
+If we ask "the code worked yesterday and does it still work as expected"
+That is *not* testing even though we call it testing.
+
+It is an act of verification.
+
+Test manually, but verify automated.
+
+Automated verification (testing!).
+
+Even though we call it automated testing (because many have done so already)
+it really is automated verification.
+
+Why not do manual verification?
+
+If we implement 4 user stores in sprint 1
+We may need, let us say, 2 days to fully test it manually
+
+In the next sprint, we implement 4 more user stories.
+How much time do we now need to fully test for this sprint?
+
+May be at least 4 days
+
+Remember software is a non-linear system. We have to make sure the 
+changes and the new additions did not break anything that already was there.
+
+Now, with each added sprint, each added story, we need more and more time.
+
+At some point we may need weeks. That is not possible to accommodate 
+within a sprint. So, we may say, go on, write some code, we will test 
+when things are done...  - Waterfall.
+
+Agile becomes waterfall, we celebrate it as agile, when in reality it
+is really far from it.
+
+A lot of organizations do what I like to call as "Agile by convenience"
+they follow rituals but shy away from the rigor that helps to achieve
+sustainability.
+
+Automated testing (verification) is about feedback. You want to rely
+on the feedback to know that things are working as expected. Also, to know
+that we can accommodate change.
+
+Automated Unit tests
+Functional tests
+Acceptance tests
+Integration tests
+...
+
+
+Automated unit tests have two benefits:
+1. Regression benefit
+2. Design benefit
+
+Regression benefits is the long term benefit of automated unit tests.
+If things fall apart, we know it right away
+
+"Unit tests are angels on your shoulder"
+
+I would rather hear from my unit tests that my code sucks than from my
+colleagues and customers.
+
+The cost of fixing an error increases with time.
+
+If we automate a lot of tests on the GUI, the tests become brittle,
+they becomes slow, and hard to maintain.
+
+Think of the test ice cream cone anti pattern vs. test pyramid
+
+We want to do more tests / verification at the lower levels and fewer (not zero, however) tests at the higher levels. Instead of doing more tests at the GUI,
+push testes to lower levels.
+
+Where should a test go?
+
+The tests should be at the lowest level possible. If the code is at a particular level, the test should not be at any higher level than that.
+
+Even the front end has multiple levels and so does the backend.
+
+One of the problems with TDD is it is a skill. Like any skill, we take time
+to get better at it. We are often terrible with things in the beginning.
+But we get better over time.
+
+Remember the time you learn to 
+ride a bicyle
+to drive a car
+to ski
+to play music
+to code
+...
+
+TDD is a skill, it takes time to get better.
+
+Productivity (myth)
+
+
+             --------
+            / 
+           / 
+          / 
+         / 
+---------
+
+Productivity (reality)
+
+                                     --------
+                                    / 
+                                   / 
+                                  / 
+                                 / 
+---------                       /
+         \                     /
+          \                   /
+           \                 /
+            \----------------
+                ^
+		|
+		Panic and give up (unless we are determined to stay course and succeed)
+
+
+
+Automated unit tests are the software equivalent of exercising.
+
+Most will agree these are good, but often do not prioritize and lack the
+discipline to follow.
+
+For us to embrace these ideas we really need discipline, commitment, and
+dedication.
+
+
