@@ -1,0 +1,34 @@
+1. We are designing a class and decide we want a field and a getter and setter for it. Should we write a unit test before writing the getter and before writing a setter?
+
+No.
+
+A unit test should be on a unit, which is smallest piece of code that does useful work. getter and setters are smallers piece of useless code.
+
+If a setter has significant validation logic, then, do not write test at the start of writing the setter, but only when you are ready to introduce that logic.
+
+2. We're designing a function that performs an action, sleeps for one second and then performs another action. How should we approach writing a unit test for it?
+
+This is a complex code that can be refactored into smaller functions that can be designed using unit tests.
+
+The function most likely fails the SLAP - Single Level of Abstraction Principle.
+So use the compose method pattern and refactor the code and focus on testing the units that are extracted from the function.
+
+Compose method pattern says that a function should be composed of instructions
+all at the same level of detail or abstraction.
+
+
+3. We're designing a function that makes a call to a remote webservice, performs one set of action if the result of the call is in a range and a different set of action if the result of the call is out side of that range. How should we approach writing a unit test for it?
+
+
+result = call to a service
+if(result range) {
+ ...
+} else {
+  ...
+}
+
+Dependency inject and use stubs for the service.
+Also consider, if the action is complex or extensive to separate into
+functions. In this case, we can use a spy for the functions and still use
+DI and test the outer function.
+
