@@ -1,0 +1,35 @@
+Code evolves constantly.
+
+We fix bugs
+We add new features
+We enhance existing features
+
+
+Two benefit of automated unit tests
+1. Regression - does the code still work after the recent change
+2. Design - is the code easier to change and evolve. Tests give us a early 
+sign of warning towards this.
+
+Regression benefit stays with us from the start
+
+You may outgrow the design benefit at some point. TDD serves as a nice
+training wheel for design. You may reach a point of diminishing return 
+for design benefits.
+
+Once we start practicing TDD, fundamentally we begin to think about cohesion,
+loose coupling, SRP, SLAP, etc. more naturally. As a result, we become
+better designers over time.
+
+Should we write automated tests?
+
+We get the regression benefit throughout, so yes.
+Also, you may not benefit from the design training wheels, but there are others
+that work with us in different stages of their design skill and it will help them.
+
+Make sure to run your Continuous Integration on all supported platforms for your application. Difference makes difference.
+
+Automated tests are safety net for refactoring.
+
+Do not refactor code without having some kind of feedback that the code actually behaves as you expect it to behave. Capture the intended behavior via the tests.
+
+
