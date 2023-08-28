@@ -1,0 +1,4 @@
+Please take a look at the code that is given.
+We have been asked to change the data type from int to double.
+How confident are we in making that change without having any tests?
+Discuss.
