@@ -25,3 +25,9 @@ SRP, SLAP, etc. Never about writing more tests.
 
 
 
+If we write tests and write minimum code to pass the tests, the coverage is
+going to be 100% (in the parts that are unit tested).
+
+I like 100% coverage when we include all kinds of tests, unit, functional,
+approval, integration, and manual.
+
