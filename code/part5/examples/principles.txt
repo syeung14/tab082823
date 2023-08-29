@@ -1,0 +1,7 @@
+Principles that we (may) use:
+-Program with intention
+-Keep it DRY, but do not overly optimize tests
+-Keep it simple
+-Keep it minimalistic
+-Follow SLAP
+-...

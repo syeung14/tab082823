@@ -1,0 +1,24 @@
+Practices to follow:
+-list the tests that come to your mind, do not deliberate over them at this time.
+-think about the behavior rather than state (what you can do instead of what it contains)
+-start with the canary test
+-think of postive tests
+-think of negative tests
+-think of exception tests
+-a good design may eliminate the need for some tests (by eliminating some possible actions or conditions)
+-pick a test that is useful and also quick to implement
+-if a test will take more effort, postpone it as other tests may pave the way for that to be implemented more easily later
+-do not go sequentially on the list of tests you created
+-as you work with tests, remember to add more tests as they come to mind
+-focus on behavior or an action rather than state
+-let the state fall in place to serve an action or a behavior rather than the state being self-serving
+-when you write a test, pause, think, stare at, and ask "how does this feel", simple or complicated
+-write absolutely minimum code to make the current tests pass
+-make sure that the tests are FAIR
+ Fast
+ Automated
+ Isolated
+ Repeatable
+-Give a blank line between the AAA: Arrange, Act, Assert
+-think about code quality, program with intent and make code expressive. Reduce cognitive load
+-when a test passes, take the time to revisit the code, and refactor to improve (Red Green Refactor)

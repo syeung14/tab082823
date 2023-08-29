@@ -1,0 +1,54 @@
+We are going to build the game of tic-tac-toe.
+
+We have two players. One player can place a peg X, the other can place a peg O. One player can start, the other one can follow. They take turns to play.
+
+The object of the game is for one player to place all of their peg in a row, a column, or in a line diagonally.
+
+Let's come up with an initial strategic design and then drive the tactical design using tests.
+
+Strategic design (high level initial idea, not set on stone, gives us a starting point):
+Game
+board
+player
+GameBoard
+Grid
+Service Contract
+Round
+Pegs
+State machine
+Game Rules
+
+We want to separate the GUI from the logic.
+
+We may want to start with the logic and then think of slapping on a GUI on top of that.
+
+Where to start?
+
+You may go by process of elimination first. Think of classes that were tempting but may really not
+be necessary or at least not needed just yet.
+We may eliminate the following for now with options to consider later:
+Pegs
+State machine
+player
+board
+GameBoard
+Service Contract
+Grid
+Round
+
+
+Game
+Game Rules
+
+The logic may be a good start for the game rules. So we can consider as a starting point a TicTacToeGame.
+
+
+Tactical design (is fine grained, driving using automated tests, refines the design along the way):
+
+Pick a class or a function that has the most interesting logic or behavior. Something that is valuable and gets us moving towards implementing the solution.
+
+How to proceed:
+-maintain a tests list
+-think of principles to use
+-and practices to follow
+

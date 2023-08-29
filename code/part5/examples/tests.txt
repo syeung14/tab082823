@@ -1,0 +1,20 @@
+Maintain this on a piece of paper or even a napkin.
+
+Tests:
+✓canary test
+-mark x, mark o (no need)
+✓no winner (game in progress) at start
+✓place peg at an empty location
+✓place peg at a non-empty location
+-a player does not play out of turn  (no need)
+✓place the first peg
+✓place the second peg
+-board created as 3x3 (no need)
+-player places x  (no need)
+-place a peg out of row bounds (hum, may be or may be the GUI should handle it?)
+-place a peg out of column bounds
+-player places only their own peg
+-is there an empty spot left?  (no need, may be needed as part of check for a draw, but not as a test)
+-no move after game is over
+✓check row win
+-...
