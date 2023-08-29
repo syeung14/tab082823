@@ -4,4 +4,5 @@ Principles that we (may) use:
 -Keep it simple
 -Keep it minimalistic
 -Follow SLAP
+-Apply YAGNI
 -...
