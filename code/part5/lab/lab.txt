@@ -1,0 +1,10 @@
+In this exercise we will create a program, test driven, for the zero player Game of Life:
+https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+
+The program will start with an input of a list of live cells. It will, at one second interval, display the cells that are live and dead. Each second, it will display the next generation of cells.
+
+For the purpose of this lab we can assume the universe if finite in size where the size is specified when the program starts.
+
+We will follow test first coding, no code unless a failing test demands it and minimum code to make tests pass. Let us take very small steps. 
+
+Please keep your tests passing at all times. Keep the design lightweight and the code quality high. Please keep your task list on a piece of paper next to you.
