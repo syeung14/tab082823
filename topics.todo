@@ -66,49 +66,51 @@ Part 4: Regression benefits:
 ✔ Discussions
 
 Part 5: Driving the Design with Tests:
-- Benefits
-  - reverts
-  - robustness
-  - verification
-  - confidence
-  - decoupling
-  - form of documentation
-  - it provides safety net for refactoring
-- Why TDD?
-  - Clean code that works
-  - predictability
-- Programming by intention
-- Simplicity and minimalism
-- Acceptance tests vs. unit tests
-- Unit Tests
-  - act of design
+✔ Example deep dive
+✔ Benefits
+  ✔ reverts
+  ✔ robustness
+  ✔ verification
+  ✔ confidence
+  ✔ decoupling
+  ✔ form of documentation
+  ✔ it provides safety net for refactoring
+✔ Why TDD?
+  ✔ Clean code that works
+  ✔ predictability
+✔ Programming by intention
+✔ Simplicity and minimalism
+✔ Acceptance tests vs. unit tests
+✔ Unit Tests
+  ✔ act of design
     Kent Beck: Unit testing is an act of design more than an act of verification
-  - feedback
-  - sustainability
-  - documentation
-  - safety net for refactoring and code evolution
-- Evolving with tests
-  -the first few tests help us define the skin of the code and the
+  ✔ feedback
+  ✔ sustainability
+  ✔ documentation
+  ✔ safety net for refactoring and code evolution
+✔ Evolving with tests
+  ✔the first few tests help us define the skin of the code and the
     next few tests help us to create the guts of the code
-- Tenets of TDD
-  - Write/change code only if a test fails
-  - Minimum code that works
-  - Seek pragmatic and simple design
-  - Eliminate duplication
-- Red/Green/Refactor
-- Review of what we learned from the example
-- As a design tool
-  - DRY principle
-  - SOLID principles: SRP, OCP, LSP, ISP, DIP
-- Untested code is unfinished code
-- Exercise
+✔ Tenets of TDD
+  ✔ Write/change code only if a test fails
+  ✔ Minimum code that works
+  ✔ Seek pragmatic and simple design
+  ✔ Eliminate duplication
+✔ Red/Green/Refactor
+✔ Review of what we learned from the example
+✔ As a design tool
+  ✔ DRY principle
+  ✔ SOLID principles: SRP, OCP, LSP, ISP, DIP
+✔ Untested code is unfinished code
+✔ Exercise
 
 Part 6: Measuring test coverage:
-- What's test coverage
-- Benefits of test coverage
-- Test coverage traps to avoid
-- Using it for the right reasons
-- Example
-- Exercise
+✔ What's test coverage
+✔ Benefits of test coverage
+✔ Test coverage traps to avoid
+✔ Using it for the right reasons
+✔ Example
+✔ Exercise
 
 Discussions
+
