@@ -1,0 +1,30 @@
+✓canary test
+✓a dead cell with 0 live neighbors stays dead
+✓a dead cell with 1 live neighbors stays dead
+✓a dead cell with 2 live neighbors stays dead
+✓a dead cell with 5 live neighbors stays dead
+✓a dead cell with 8 live neighbors stays dead
+✓a dead cell with 3 live neighbors comes to life
+✓a live cell with 0 live neighbors dies
+✓a live cell with 1 live neighbors dies
+✓a live cell with 5 live neighbors dies
+✓a live cell with 8 live neighbors dies
+✓a live cell with 2 live neighbors stays alive
+✓a live cell with 3 live neighbors stays alive
+✓number of live neighbors is 0
+✓number of live neighbors is 1
+✓number of live neighbors is 1 for a live cell
+✓number of live neighbors is 2
+✓number of live neighbors is 3
+✓number of live neighbors is 2 when a far away cell is alive
+✓number of live neighbors for top left cell
+✓number of live neighbors for top right cell
+✓number of live neighbors for bottom left cell
+✓number of live neighbors for bottom right cell
+✓a dead universe stays dead
+✓a universe with one live cell becomes a dead universe
+✓a universe with two live neighbors becomes a dead universe
+✓transform a universe with three live neighbors 
+✓a block remains a block
+✓a horizontal blinker becomes a vertical blinker
+✓a vertical blinker becomes a horizontal blinker

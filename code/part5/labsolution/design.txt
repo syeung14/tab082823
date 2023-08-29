@@ -1,0 +1,51 @@
+For a cell to come to live it needs 3 neighbors.
+Cells die due to under pollution or over pollution
+
+Fixed size grid
+
+Strategic design
+Create a grid
+Cell class
+  Living cells
+  Dead cells
+Generation (from one universe state to the next)
+tick function to advance to the next generation
+
+A set of living cells
+Adjacent cells
+
+Tactical design
+
+I want to know if a deal cell comes to life.
+
+For this we need to know the current state of a cell (which is dead). But, we also need access to all the neighbors, eight of them, for this cell we are focusing on.
+
+ - - -
+ - ? -
+ - - -
+
+This means, we need a grid, we need to position in the grid,
+and ability to iterate over each of the eight neighbors of
+the cell at position.
+
+Is that simple enough or can it be simpler?
+
+Or,...
+
+We may use YAGNIy (You Aren't Gonna Need It yet) or
+use the last responsible moment principle.
+
+What we really need is not the neighbors, what we really
+need is the number of live neighbors. How we get that
+is something we can postpone.
+
+So, given current state of cell and number of live neighbors
+we can determine the next state. Such a function will be a pure function, has the least amount of dependencies and
+has no side-effect. 
+
+nextState(currentState, numberOfLiveNeighbors)
+
+We postponed details of grid, iteration, etc. and can
+focus on the core logic.
+
+
